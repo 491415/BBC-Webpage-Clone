@@ -1,0 +1,160 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+body {
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Asap', sans-serif;
+}
+
+#mainNav {
+    background: black;
+    padding: 0;
+}
+
+#mainNav a {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#mainNav li {
+    border-left: 0.25px solid gray;
+    padding-top: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-bottom: 4px solid transparent;
+}
+
+
+.bbcLogo {
+    background: white;
+    color: black;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    margin-left: 4px;
+}
+
+#signInNav {
+    width: 11rem;
+}
+
+#signInNav:hover {
+    border-bottom: 4px solid #119EC1;
+}
+
+#userIcon {
+    margin-right: 0.3rem;
+}
+
+#homeButton:hover {
+    border-bottom: 4px solid black;
+}
+
+#newsButton:hover {
+    border-bottom: 4px solid darkred;
+}
+
+#sportButton:hover {
+    border-bottom: 4px solid gold;
+}
+
+#reelButton:hover {
+    border-bottom: 4px solid #3390FF;
+}
+
+#worklifeButton:hover {
+    border-bottom: 4px solid #3336FF;
+}
+
+#travelButton:hover {
+    border-bottom: 4px solid #2FAC66;
+}
+
+#futureButton:hover {
+    border-bottom: 4px solid #203298;
+}
+
+#cultureButton:hover {
+    border-bottom: 4px solid #4709AF;
+}
+
+#moreDropdown:hover {
+    border-bottom: 4px solid white;
+}
+
+#moreDropdown {
+    border-right: 1px solid gray;
+}
+
+.dropdown-toggle::after {
+    margin-left: 3rem;
+}
+
+#searchInput {
+    padding-left: 1.5rem;
+}
+
+#searchField {
+    border-radius: 0;
+    border: none;
+    background: white;
+    padding-left: 0.35rem;
+}
+
+#searchField:focus::placeholder {
+    color: gray;
+}
+
+#searchField::placeholder {
+    font-weight: 500;
+    color: black;
+}
+
+#searchField:focus {
+    box-shadow: inset 0px 0px 0px 1.25px rgba(77,144,254,1);
+}
+
+#searchButton {
+    border: none;
+    background: white;
+    border-radius: 0;
+}
+
+#searchButton:focus {
+    box-shadow: inset 0px 0px 0px 1.25px rgba(77,144,254,1);
+}
+
+#searchButton:hover {
+    color: black;
+}
+
+.btn-outline-secondary {
+    color: black;
+}
+
+#mainNav .dropdown-item {
+    color: black;
+}
+
+#headerText {
+    padding-top: 2rem;
+}
+
+#currentDayDate {
+    color: #8C8C8C;
+    font-weight: 300;
+}
+#headerText {
+    color: #4A4A4A;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+nav.navbar.open {
+    margin-bottom: 120px;
+}
+

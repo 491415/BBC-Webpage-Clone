@@ -1,16 +1,98 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>BBC - Homepage</title>
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="bootstrap.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
 
-    <body>
-        
+<head>
+    <meta charste="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    
-    </body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="resources/styles/style.css">
+    <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+
+    <title>BBC - Homepage</title>
+</head>
+
+<body>
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.bbc.com/"><span class="bbcLogo">B</span><span class="bbcLogo">B</span><span class="bbcLogo">C</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li id="signInNav" class="nav-item">
+                        <a class="nav-link" href="#"><i id="userIcon" class="fa fa-user-circle fa-lg" aria-hidden="true"></i> Sign in</a>
+                    </li>
+                    <li id="homeButton" class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li id="newsButton" class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li id="sportButton" class="nav-item">
+                        <a class="nav-link" href="#">Sport</a>
+                    </li>
+                    <li id="reelButton" class="nav-item">
+                        <a class="nav-link" href="#">Reel</a>
+                    </li>
+                    <li id="worklifeButton" class="nav-item">
+                        <a class="nav-link" href="#">Worklife</a>
+                    </li>
+                    <li id="travelButton" class="nav-item">
+                        <a class="nav-link" href="#">Travel</a>
+                    </li>
+                    <li id="futureButton" class="nav-item">
+                        <a class="nav-link" href="#">Future</a>
+                    </li>
+                    <li id="cultureButton" class="nav-item">
+                        <a class="nav-link" href="#">Culture</a>
+                    </li>
+                    <li id="moreDropdown" class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Music</a>
+                            <a class="dropdown-item" href="#">TV</a>
+                            <a class="dropdown-item" href="#">Weather</a>
+                            <a class="dropdown-item" href="#">Sounds</a>
+                        </div>
+                    </li>
+                </ul>
+                <div id="searchInput" class="input-group">
+                    <input id="searchField" type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button id="searchButton" class="btn btn-outline-secondary" type="button"><i id="searchIcon" class="fa fa-search fa-md" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container d-none d-sm-block">
+        <div id="headerText" class="row">
+            <div class="col-6">
+                Welcome to BBC.com
+            </div>
+            <div id="currentDayDate" class="col-6 text-right">
+                Day, Date
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script text="type/javascript" src="resources/script.js">
+    </script>
+    <script src="https://kit.fontawesome.com/ab9b9d0c03.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
