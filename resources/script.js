@@ -9,7 +9,7 @@ function getDayName(dateStr, locale) {
 var dateStr = today;
 var dayOfWeek = getDayName(dateStr, "en-US");
 var dayOfMonth = String(today.getDate()).padStart(2, '0');
-var month = today.toLocaleString('default', {month: 'long'});
+var month = today.toLocaleString("en-US", {month: 'long'});
 
 document.getElementById("currentDayDate").textContent = dayOfWeek + ", " + dayOfMonth + " " + month;
 
